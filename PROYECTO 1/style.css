@@ -1,0 +1,70 @@
+
+h1{
+    align-content: center;
+    color:blue
+}
+p{
+    float:none;
+}
+dt{
+    color: darkblue;
+    font-size: xx-large;
+}
+dd{
+    
+    font-size:large;
+}
+
+input{
+    background-color: rgb(17, 51, 89);
+    border: 5px solid rgb(17, 51, 89);
+    text-align: center;
+    
+  
+}
+label{
+    text-decoration: azure;
+    text-align: center;
+}
+
+.contenedor-form{
+    border-radius: 20px;
+    background:darkgray;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 80px;
+    width: 600px;
+    height: 200px;
+    margin:20px;
+    border-color:darkslategrey, 15px;
+    justify-content:center;
+    font-size:larger;
+  }
+   #apellido,#nombre{
+    float:right;
+    width: 50%;
+    justify-content:center;
+   }
+  
+  #email{
+      
+      width: 96%;
+      font-family: "Times New Roman", Times, serif;
+      justify-content:center;
+  }
+  #celular{
+     
+      width: 96%;
+      justify-content:center;
+  }
+  #contenedor-sumit{
+      float:left;
+      width: 60%;
+      padding: 1%;
+      justify-content:center;
+  }
+  #IC{
+   color: #684aba;
+   display: flex;
+  justify-content:center;
+  }
